@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@cook.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@cook.com",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "aca9",
+      "email": "aminemsatii1@gmail.com",
+      "password": "1111",
+      "role": "user"
+    },
+    {
+      "id": "3b68",
+      "email": "faridafari@gmail.com",
+      "password": "2222",
+      "role": "admin"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "f52d",
+      "title": "Tajine marocain",
+      "description": "Le tajine est un grand classique de la cuisine marocaine. Cette recette vous permet de préparer une cocotte marocaine pleine de saveurs, aux accents de chez nous.",
+      "ingredients": [
+        " 1kg d'épaule d’agneau ",
+        "2 carottes ",
+        "3 tomates ",
+        "2 oignons "
+      ],
+      "steps": [
+        "1- Coupez les oignons en rondelles. Épluchez les pommes de terre et les carottes et coupez en gros morceaux.",
+        "2-Coupez grossièrement les tomates et l’aubergine. Ciselez finement l’ail.",
+        "Faites revenir l’épaule d’agneau dans l’huile d’olive avec toutes les épices, l’oignon et l’ail. Ajoutez les morceaux de tomates et un filet d’eau."
+      ],
+      "category": "marocain",
+      "prepTime": "2",
+      "cookTime": "2",
+      "servings": "2",
+      "difficulty": "difficile",
+      "image": "https://img.freepik.com/photos-premium/tajine-marocain-traditionnel-poulet-aux-olives-citrons-salees_266870-13366.jpg?semt=ais_hybrid&w=740",
+      "userId": "3b68",
+      "createdAt": "2025-05-02T14:13:13.995Z"
+    },
+    {
+      "id": "0f6b",
+      "title": "Pizza maison",
+      "description": "Dans un saladier, placez les 300 g de farine, puis la levure, puis le bicarbonate de soude, la pincée de sel et celle de poivre. Ajoutez aussi le paprika et le sel d'ail selon votre goût. Mélangez à sec pour homogénéiser les ingrédients. ",
+      "ingredients": [
+        "300 g de farine",
+        "le bicarbonate de soude,",
+        "e paprika"
+      ],
+      "steps": [
+        " Étape 1\nDans un saladier, placez les 300 g de farine, puis la levure, puis le bicarbonate de soude, la pincée de sel et celle de poivre.\n",
+        " Étape 2\nVersez ensuite la moitié des 20 cl d'eau",
+        "\nÉtape 3\n\nAjoutez alors un peu de farine à la main, mélangez et pétrissez. Recommencez l'opération (farine plus pétrissage) jusqu'à obtenir une boule de pâte que ne colle plus.\n"
+      ],
+      "category": "italien",
+      "prepTime": "2",
+      "cookTime": "1",
+      "servings": "1",
+      "difficulty": "facile",
+      "image": "https://assets.afcdn.com/recipe/20181017/82862_w314h314c1cx1944cy2592cxt0cyt0cxb3888cyb5184.webp",
+      "userId": "3b68",
+      "createdAt": "2025-05-02T16:38:57.190Z"
+    },
+    {
+      "id": "023c",
+      "title": "Couscous Marocain",
+      "description": "Un couscous marocain traditionnel, simple à réaliser, qui constitue un excellent plat familial. Pour gagner du temps, nous utilisons la cocotte minute. Contrairement au couscous royal couramment servi en France, celui-ci ne contient pas de merguez. Au Maroc, le couscous est traditionnellement préparé et dégusté le vendredi, jour de la grande prière hebdomadaire pour les musulmans. ",
+      "ingredients": [
+        "2 Carotte",
+        "500 g couscous ",
+        "Courge",
+        " 5 tomate"
+      ],
+      "steps": [
+        "\nÉtape 1\nDans une cocotte-minute, déposez les morceaux de gigot d’agneau, l’oignon émincé et les tomates mixées. ",
+        "\nÉtape 2\nPendant ce temps, épluchez tous les légumes (navets, courge et courgettes) et coupez-les en morceaux de taille moyenne",
+        "\nÉtape 3\nAu bout des 15 min de cuisson, ajoutez les morceaux de carotte, de navets et le bouquet de coriandre."
+      ],
+      "category": "marocain",
+      "prepTime": "1",
+      "cookTime": "1",
+      "servings": "2",
+      "difficulty": "facile",
+      "image": "https://lemaitredeslegumes.ma/wp-content/uploads/2024/07/Couscous-Marocain-3-2.webp",
+      "userId": "3b68",
+      "createdAt": "2025-05-02T16:52:37.498Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "recipeId": "f52d",
+      "userId": "3b68",
+      "text": "وصفة رائعة! شكرًا للمشاركة",
+      "createdAt": "2023-10-21T10:00:00Z"
+    },
+    {
+      "id": "7195",
+      "recipeId": "f52d",
+      "text": ";ncx;vnd;f\n\n",
+      "userId": "3b68",
+      "userName": "faridafari",
+      "date": "2025-05-02T15:34:32.738Z"
+    },
+    {
+      "id": "5db7",
+      "recipeId": "f52d",
+      "text": "hiughr",
+      "userId": "aca9",
+      "userName": "aminemsatii1",
+      "date": "2025-05-02T16:22:55.664Z"
+    }
+  ]
+}
